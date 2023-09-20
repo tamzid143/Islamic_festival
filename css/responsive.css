@@ -1,0 +1,588 @@
+
+/* EXTRA SMALL RESPONSIVE START==================================== */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+/* ================== */
+	.title p {
+		width: 300px;
+		font-size: 13px;
+	}
+	/* =============== */
+
+  header .container {
+    justify-content: space-between;
+  }
+	/* ================================= */
+   #banner_part .nav-link {
+    line-height: 40px;
+    
+  } 
+
+  #banner_part{
+    padding-bottom: 30px;
+    padding-top: 0;
+  }
+
+
+#banner_part .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner_part .navbar-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ #banner_part .navbar-toggler:focus {
+	outline: 0;
+  border: 0;
+}
+
+
+#banner_part .banner_img{
+  display: none;
+}
+
+#banner_part .main_banner .banner_text{
+	width: 393px;
+}
+
+#banner_part .main_banner .banner_text h1 {
+	font-size: 40px;
+	text-align: center;
+	line-height: 1 !important;
+}
+
+
+#banner_part .main_banner .banner_text p {
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	width: 300px;
+	margin: 20px auto;
+
+}
+
+#banner_part .main_banner .input_type {
+	width: 320px;
+	text-align: center;
+	display: flex;
+	/* flex-direction: column; */
+	column-gap: 20px;
+}
+
+
+#banner_part .main_banner .banner_text button {
+
+	font-size: 12px;
+	text-align: right;
+	position: relative;
+	left: 43px;
+}
+
+#banner_part .main_banner .banner_text input {
+	font-size: 12px;
+	text-align: left;
+	width: 208px;
+	position: relative;
+	left: 35px;
+}
+/* ========================================================== */
+
+#comitted_part .container .title h2 {
+	font-size: 23px;
+	
+}
+
+#comitted_part .container .text h3 {
+	font-size: 19px;
+}
+
+#comitted_part .container .text p {
+	font-size: 14px;
+	line-height: 25px;
+ }  
+
+
+ #comitted_part .container .col-lg-4{
+	padding-top: 30px;
+}
+
+ .venoratio{
+  width: 100% !important;
+}
+
+
+.vbox-close {
+	cursor: pointer;
+	position: fixed;
+	top: 196px;
+	right: 0px;
+	font-size: 34px;
+	color: #808B96;
+}
+/* ======================================= */
+
+
+#about_part {
+	padding: 70px 0 20px;
+}
+
+#about_part .imge{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+
+#about_part .imge img{
+	width: 100%;
+}
+
+#about_part .container .about_text .inner_text {
+	width: 100%;
+}
+
+#about_part .container .about_text .inner_text p {
+
+	font-size: 13px;
+	padding-top: 20px;
+
+}
+/* ====================================== */
+
+#event_part .event_text_slider {
+	margin-top: 10px;
+}
+
+
+#event_part .event_text_slider .left {
+	right: 100px;
+	bottom: 0;
+}
+
+#event_part .event_text_slider .right {
+	right: 144px;
+	bottom: 0;
+	
+}
+
+
+#event_part .event_text_slider::after {
+	left: 49%;
+	top: 3%;
+}
+
+#event_part .btn_button {
+	column-gap: 15px;
+}
+
+#event_part .event_text_slider .text p {
+	font-size: 13px;
+
+}
+
+#event_part .event_text_slider .text p {
+	font-size: 13px;
+	
+}
+
+/* ========================================= */
+
+
+#service_part .container .service_text p {
+	margin-top: 20px;
+	width: auto;
+	font-size: 13px;
+}
+/* ========================== */
+
+#counter_part {
+	height: 1006px;
+}
+
+#counter_part .container .row{
+	row-gap: 30px;
+}
+
+#counter_part .container .counter_text {
+	transform: translateY(9%);
+	-webkit-transform: translateY(9%);
+	-moz-transform: translateY(9%);
+	-ms-transform: translateY(9%);
+	-o-transform: translateY(9%);
+}
+/* ================================ */
+
+#review_part .container{
+	padding: 0;
+}
+
+#review_part {
+	height: 776px;
+}
+
+#review_part .container .review_slider_main {
+	padding: 42px 91px 317px;
+}
+
+#review_part .container .review_slider_main .text_part {
+	position: relative;
+	left: -554px;
+	width: 320px;
+	top: 303px;
+}
+
+#review_part .container .review_slider_main .text_part p{
+	width: 320px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 21px;
+	padding: 0 42px;
+}
+
+
+#review_part .client_review_slide .left {
+	width: 30px;
+	height: 30px;
+
+	font-size: 15px;
+
+	
+	line-height: 30px;
+
+	right: 119px;
+	bottom: -21px;
+
+}
+
+#review_part .client_review_slide .right {
+	width: 30px;
+	height: 30px;
+	
+	font-size: 15px;
+	line-height: 30px;
+	
+	top: 665px;
+	left: 107px;
+
+}
+
+#review_part .border_div {
+	left: -55px;
+}
+
+
+#review_part .border_div .name_div {
+	left: -23px;
+	top: 260px;
+}
+/* ================================== */
+
+#footer_part .container .row {
+	row-gap: 50px;
+}
+
+#footer_part .container .third_col .form_part .text h4 {
+	line-height: 1 !important;
+	width: 320px;
+}
+
+}
+
+/* EXTRA SMALL RESPONSIVE END===================================================== */
+
+
+
+
+
+
+
+
+
+/* SMALL RESPONSIVE START========================================================= */
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+
+	.title p {
+		width: 501px;
+	}
+/* ======================= */
+
+
+	#banner_part .main_banner .imge img {
+		border-radius: 50px;
+	}
+
+	#banner_part .main_banner .banner_text {
+		text-align: center;
+	}
+
+	#banner_part .main_banner .banner_text h1 {
+		text-align: center;
+		margin: 30px;
+	}
+
+	#banner_part .main_banner .banner_text p {
+		text-align: center;
+		width: 420px;
+		margin: 0 auto;
+	}
+
+	#banner_part .main_banner .input_type {
+		margin: 20px 0;
+	} 
+/* ======================================= */
+
+	#comitted_part .container .imge {
+		margin-top: 20px;
+	}
+
+	.venoratio{
+		width: 100% !important;
+	}
+	.vbox-close {
+		top: 170px;
+		right: -3px;
+
+	}	
+/* =================================== */
+
+	#about_part {
+		padding: 70px 0 20px;
+	}
+
+	#about_part .container .about_text .inner_text {
+		 width: 277px; 
+	}
+
+	#about_part .container .about_text .inner_text p {
+		margin-top: 20px;
+	}
+
+	#about_part .container .imge {
+		position: relative;
+		top: 283px;
+	}
+
+	/* =========================================== */
+
+
+	#service_part .container .service_text p {
+		width: auto;
+	}
+	/* ==================================== */
+
+
+	#counter_part {
+		height: 292px;
+		
+	}
+
+	#counter_part .container .row{
+		row-gap: 30px;
+	}
+
+	/* ==================================== */
+
+	#review_part .container{
+		padding: 0;
+	}
+	
+	#review_part {
+		height: 776px;
+	}
+	
+	#review_part .container .review_slider_main {
+		padding: 42px 91px 227px;
+		border-radius: 50px;
+	}
+
+
+#review_part .container .review_slider_main .text_part {
+	position: relative;
+	left: -556px;
+	width: 320px;
+	top: 215px;
+}
+	
+	#review_part .container .review_slider_main .text_part p {
+		width: 567px;
+		padding: 0 50px;
+
+	}
+	
+	#review_part .client_review_slide .left {
+		right: 65px;
+		bottom: -17px;
+	}
+	
+	#review_part .client_review_slide .right {
+		top: 486px;
+		left: 58px;
+	}
+	
+	#review_part .border_div {
+		left: -55px;
+	}
+	
+	
+	#review_part .border_div .name_div {
+		left: 160px;
+		top: 184px;
+	}
+	
+/* ================================================ */
+
+	#footer_part .container .first_col .office p {
+		width: auto;
+	}
+
+
+	#footer_part .container .first_col .number p {
+		width: auto;
+	}
+
+	#footer_part .container .first_col .office p {
+		width: auto;
+	}
+
+	#footer_part .container .second_col {
+		margin-top: 50px;
+	}
+
+	#footer_part .container .last {
+		margin-top: 50px;
+	}
+}
+/* SMALL RESPONSIVE END============================================== */
+
+
+
+
+
+/* MEDIUM RESPONSIVE START============================================= */
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+
+	#banner_part .main_banner .imge img {
+		border-radius: 20px;
+	}
+
+	#banner_part .main_banner .banner_text {
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+
+
+	#banner_part .main_banner .banner_text h1 {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+
+	#banner_part .main_banner .banner_text p {
+		width: 492px;
+	}
+/* ============================================== */
+	#comitted_part .container .imge {
+		margin-top: 30px;
+	}
+/* ========================================= */
+	#about_part .container .about_text .inner_text {
+		width: auto;
+	}
+
+	#about_part .container .imge {
+		position: relative;
+		top: 140px;
+	}
+/* ==================================== */
+	#counter_part {
+		height: 330px;
+		
+	}
+
+	#counter_part .container .row {
+		row-gap: 50px;
+	}
+/* =========================================== */
+	#review_part .container .review_slider_main {
+		padding: 24px 91px 221px;
+		border-radius: 20px;
+	}
+
+	#review_part .container .review_slider_main .text_part {
+		position: relative;
+		left: -498px;
+		width: 320px;
+		top: 210px;
+	}
+
+	#review_part .container .review_slider_main .text_part p {
+		width: 567px;
+		padding: 0 50px;
+
+	}
+
+	#review_part .client_review_slide .right {
+		top: 250px;
+		left: -20px;
+	
+	}
+	/* ===================================== */
+
+	#footer_part .container .first_col .office p {
+		width: auto;
+	}
+
+	#footer_part .container .first_col .number p {
+		width: auto;
+	}
+
+	#footer_part .container .first_col .visits p {
+		width: auto;
+	}
+
+	#footer_part .container .second_col {
+		margin: 30px 0;
+	}
+}
+
+/* MEDIUM RESPONSIVE END============================================= */
+
+
+/* LARGE RESPONSIVE START============================================ */
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+
+	#banner_part .main_banner .banner_text p {
+		width: auto;
+	}
+
+
+/* =========================================== */
+
+	#service_part .container .service_text p {
+		width: auto;
+	}
+
+
+	/* ================================= */
+
+#gallery_part .container .none{
+	display: none;
+}
+
+
+/* ================================= */
+}
+
+/* LARGE RESPONSIVE END================================================ */
